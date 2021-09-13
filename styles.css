@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+}
+
+.screen {
+    display: flex;
+    justify-content: center;
+}
+
+.picture {
+    margin-right: 75px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.midokitext {
+    display: flex;
+}
+
+h2 {
+    color: #a8abaa;
+}
+
+h1 {
+    font-size: 125px;
+    color: #8bc927;
+    height: 50px;
+}
+
+.yellow {
+    color: #f6cd47;
+}
+
+h3 {
+    color: #a8abaa;
+}
+
+a {
+    color: aliceblue;
+    background-color: #8bc927;
+    height: 8%;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 8px;
+    padding-top: 10px;
+}
