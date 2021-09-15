@@ -23,14 +23,17 @@ body {
     display: flex;
 }
 
-h2 {
-    color: #a8abaa;
+.presentation {
+    color: #9da09f;
+    margin: 0;
+    font-size: 30px;
 }
 
 h1 {
     font-size: 125px;
     color: #8bc927;
     height: 50px;
+    margin-top: 0;
 }
 
 .yellow {
@@ -44,11 +47,41 @@ h3 {
 a {
     color: aliceblue;
     background-color: #8bc927;
-    height: 8%;
-    width: 50%;
+    height: 40px;
+    width: 200px;
     text-align: center;
     text-decoration: none;
     font-size: 22px;
     border-radius: 8px;
     padding-top: 10px;
+}
+
+.dots {
+    display: flex;
+    justify-content: space-between;
+    font-size: 70px;
+    width: 45px;
+}
+
+h4 {
+    color: #8bc927;
+    margin: 0;
+}
+
+.picturetext {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.picturetext2 {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 800px) {
+    .screen {
+        flex-direction: column;
+    }
 }
